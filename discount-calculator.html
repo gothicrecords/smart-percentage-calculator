@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator | Find Final Sale Prices</title>
+    <meta name="description"
+        content="Calculate discount percentages instantly. Find out the final price after a store discount or calculate the total savings. Free and fast browser tool.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://example.com/discount-calculator.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How do you calculate a discount percentage?", "acceptedAnswer": { "@type": "Answer", "text": "Subtract the sale price from the original price, divide the difference by the original price, and multiply by 100." } },
+        { "@type": "Question", "name": "How to calculate a 20% discount on 50 dollars?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply $50 by 0.20 to get $10. Subtract that from $50, making the final price $40." } },
+        { "@type": "Question", "name": "Are multiple discounts additive?", "acceptedAnswer": { "@type": "Answer", "text": "No. Sequential discounts (e.g., 20% off, then 10% off) apply to the newly reduced price, not the original base." } },
+        { "@type": "Question", "name": "What is the difference between discount and markdown?", "acceptedAnswer": { "@type": "Answer", "text": "A markdown is a permanent retail price reduction, while a discount is usually a temporary promotional reduction in price for consumers." } },
+        { "@type": "Question", "name": "Why is the discount calculator useful for businesses?", "acceptedAnswer": { "@type": "Answer", "text": "It helps businesses ensure their planned promotional discounts do not entirely eliminate their baseline profit margins." } }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Smart Percentage</a>
+        <nav class="nav-links">
+            <a href="percentage-increase-calculator.html">Increase</a>
+            <a href="percentage-decrease-calculator.html">Decrease</a>
+            <a href="profit-margin-calculator.html">Profit Margin</a>
+            <a href="markup-calculator.html">Markup</a>
+            <a href="discount-calculator.html">Discount</a>
+            <a href="compound-growth-calculator.html">Compound</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>Discount Calculator</h1>
+            <p class="subtitle">Quickly figure out the actual percentage you are saving during a sale.</p>
+        </div>
+
+        <!-- Ad Slot Top -->
+        <div class="ad-placeholder">Ad Slot Top</div>
+
+        <div class="calculator-card">
+            <form id="calc-discount">
+                <div class="form-group">
+                    <label for="original">Original Price</label>
+                    <input type="number" id="original" placeholder="e.g. 150" step="any" required>
+                    <div class="error-msg">Please enter a valid original price</div>
+                </div>
+                <div class="form-group">
+                    <label for="sale">Sale Price</label>
+                    <input type="number" id="sale" placeholder="e.g. 100" step="any" required>
+                    <div class="error-msg">Please enter a valid sale price</div>
+                </div>
+                <div class="btn-group">
+                    <button type="submit" class="btn-primary">Calculate Discount</button>
+                    <button type="reset" class="btn-secondary">Reset</button>
+                </div>
+            </form>
+            <div id="result-box" class="result-box">
+                <p>Discount Percentage:</p>
+                <div id="result-value" class="result-value">0%</div>
+                <button id="btn-copy" class="btn-copy">Copy Result</button>
+            </div>
+        </div>
+
+        <!-- Ad Slot Middle -->
+        <div class="ad-placeholder">Ad Slot Middle</div>
+
+        <article class="content-section">
+            <h2>Understanding Discounts</h2>
+            <p>Discounts are promotional financial mechanisms used worldwide to incentivize purchasing behavior. Whether
+                you are a shopper trying to decipher the true value of a Black Friday sale, or a store owner programming
+                your point-of-sale system, knowing exactly what percentage is being deducted prevents monetary loss and
+                ensures transparency.</p>
+
+            <h3>The Mathematical Formula</h3>
+            <p>Calculating a discount is a specific application of the percentage decrease formula. The method is:</p>
+            <p><strong>Discount Percentage = ((Original Price - Sale Price) / Original Price) × 100</strong></p>
+            <p>Find the raw cash dollar difference by subtracting the sale price from the standard original price.
+                Divide that absolute savings amount by the original sticker price, then multiply by 100 to yield a clean
+                discount percentage.</p>
+
+            <h3>3 Practical Examples</h3>
+            <ul>
+                <li><strong>Example 1 (Retail Clothing):</strong> A jacket usually costs $100. It is on sale for $75.
+                    Savings is $25. Divide 25 by 100 to get 0.25. That is a <strong>25% discount</strong>.</li>
+                <li><strong>Example 2 (Car Sales):</strong> A car sticker price is $30,000. You negotiate it down to
+                    $27,000. Savings is $3,000. 3,000 divided by 30,000 equals 0.10, granting you a <strong>10%
+                        discount</strong>.</li>
+                <li><strong>Example 3 (Software Subscription):</strong> A yearly app plan is originally $120. They offer
+                    a promo rate of $90. Savings is $30. 30 divided by 120 is 0.25, meaning a <strong>25%
+                        discount</strong> on the software.</li>
+            </ul>
+
+            <h3>When to Use This Calculator</h3>
+            <p>Customers should use this when verifying whether a "special offer" actually provides significant
+                numerical savings. Business owners should utilize the calculator to ensure that advertising a 40%
+                discount on inventory doesn't accidentally dip below the wholesale cost base, creating a negative net
+                profit margin scenario.</p>
+
+            <h3>Common Errors to Avoid</h3>
+            <p>The most common error is miscalculating stacked discounts. If a store offers 20% off, plus an additional
+                10% at the register, that does NOT equal a 30% total discount. The latter 10% applies to the newly
+                reduced 80% price. Stacked mental math often leads to disappointment at the checkout counter.</p>
+
+            <!-- Ad Slot Bottom -->
+            <div class="ad-placeholder">Ad Slot Bottom</div>
+
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>How do you calculate a discount percentage?</h3>
+                <p>Subtract the sale final price from the base original price, divide that difference by the original
+                    base price, and multiply by 100.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How to calculate a 20% discount on 50 dollars?</h3>
+                <p>Multiply $50 by 0.20 to find the savings ($10). Subtract that $10 from $50. The resulting final price
+                    is $40.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are multiple discounts additive?</h3>
+                <p>No. Sequential retail discounts (like 20% off an already 50% off rack) apply incrementally to the
+                    newly reduced subtotals, not in a single cumulative flat rate.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the difference between discount and markdown?</h3>
+                <p>A markdown is typically a permanent reduction in ledger price due to obsolescence, whereas a discount
+                    is a temporary promotional reduction meant to stimulate immediate sales volume.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Why is the discount calculator useful for businesses?</h3>
+                <p>It acts as a primary safety check for marketers to ensure their highly promoted holiday discounts do
+                    not accidentally annihilate their unit economics and clear inventory at a loss.</p>
+            </div>
+
+            <h3>Conclusion</h3>
+            <p>Understanding exactly how much you are saving or conceding in retail is vital. Bookmark this Discount
+                Calculator to double-check the math on every significant purchase or promotional campaign, reinforcing
+                your financial efficiency.</p>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
+        <p>&copy; 2026 Smart Percentage Calculator. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

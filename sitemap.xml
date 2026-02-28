@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/percentage-increase-calculator.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/percentage-decrease-calculator.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/profit-margin-calculator.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/markup-calculator.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/discount-calculator.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/compound-growth-calculator.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/privacy-policy.html</loc>
+    <priority>0.2</priority>
+  </url>
+</urlset>

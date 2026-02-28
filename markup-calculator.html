@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markup Calculator | Find Optimum Pricing Options</title>
+    <meta name="description"
+        content="Calculate markup percentage based on cost and price. Understand how to properly mark up retail and wholesale goods. Fast and free tool.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://example.com/markup-calculator.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is markup?", "acceptedAnswer": { "@type": "Answer", "text": "Markup is the percentage added to the cost price of goods to cover overhead and secure profit." } },
+        { "@type": "Question", "name": "What is a 50% markup?", "acceptedAnswer": { "@type": "Answer", "text": "A 50% markup means adding half of the original cost to the cost itself. A $10 item sells for $15." } },
+        { "@type": "Question", "name": "Is markup higher than margin?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, markup percentages are always higher than corresponding margin percentages." } },
+        { "@type": "Question", "name": "What is keystone pricing?", "acceptedAnswer": { "@type": "Answer", "text": "Keystone pricing is a 100% markup policy, meaning a retailer simply doubles the wholesale cost." } },
+        { "@type": "Question", "name": "Can markup exceed 100%?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, restaurants and jewelers often use markups exceeding 200% or 300% to cover immense physical overhead." } }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Smart Percentage</a>
+        <nav class="nav-links">
+            <a href="percentage-increase-calculator.html">Increase</a>
+            <a href="percentage-decrease-calculator.html">Decrease</a>
+            <a href="profit-margin-calculator.html">Profit Margin</a>
+            <a href="markup-calculator.html">Markup</a>
+            <a href="discount-calculator.html">Discount</a>
+            <a href="compound-growth-calculator.html">Compound</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>Markup Calculator</h1>
+            <p class="subtitle">Set your pricing strategy perfectly by calculating exact markups.</p>
+        </div>
+
+        <!-- Ad Slot Top -->
+        <div class="ad-placeholder">Ad Slot Top</div>
+
+        <div class="calculator-card">
+            <form id="calc-markup">
+                <div class="form-group">
+                    <label for="cost">Cost of Goods</label>
+                    <input type="number" id="cost" placeholder="e.g. 50" step="any" required>
+                    <div class="error-msg">Please enter a valid cost</div>
+                </div>
+                <div class="form-group">
+                    <label for="price">Selling Price</label>
+                    <input type="number" id="price" placeholder="e.g. 100" step="any" required>
+                    <div class="error-msg">Please enter a valid price</div>
+                </div>
+                <div class="btn-group">
+                    <button type="submit" class="btn-primary">Calculate Markup</button>
+                    <button type="reset" class="btn-secondary">Reset</button>
+                </div>
+            </form>
+            <div id="result-box" class="result-box">
+                <p>Markup Percentage:</p>
+                <div id="result-value" class="result-value">0%</div>
+                <button id="btn-copy" class="btn-copy">Copy Result</button>
+            </div>
+        </div>
+
+        <!-- Ad Slot Middle -->
+        <div class="ad-placeholder">Ad Slot Middle</div>
+
+        <article class="content-section">
+            <h2>Understanding Business Markups</h2>
+            <p>Markup is the foundational concept behind retail and wholesale pricing. It essentially measures the
+                difference between what a product costs you to acquire or manufacture, and the price at which you sell
+                it to a customer, framed as a percentage of the initial cost. Intelligent markups ensure you not only
+                cover operating expenses but also yield stable expansion capital.</p>
+
+            <h3>The Mathematical Formula</h3>
+            <p>Unlike margin, markup divides gross profit entirely by the base cost. The formula is:</p>
+            <p><strong>Markup Percentage = ((Selling Price - Cost) / Cost) × 100</strong></p>
+            <p>Deduct your base cost from your target selling price to find your profit. Divide that profit exactly by
+                the base cost. This tells you how large of a multiplier you are applying to your inventory.</p>
+
+            <h3>3 Practical Examples</h3>
+            <ul>
+                <li><strong>Example 1 (Keystone Retail):</strong> A boutique buys jeans for $40. They sell them for $80.
+                    Profit is $40. 40 / 40 = 1.0, which means they enforce a strict <strong>100% markup</strong>.</li>
+                <li><strong>Example 2 (Tech Hardware):</strong> A laptop costs $800 to make and is sold for $1000.
+                    Difference is $200. Dividing 200 by 800 gives 0.25, denoting a standard <strong>25% markup</strong>.
+                </li>
+                <li><strong>Example 3 (Coffee Industry):</strong> An espresso costs $0.50 in supplies and sells for
+                    $3.50. The profit alone is $3.00. 3.00 / 0.50 equates to an astronomical <strong>600%
+                        markup</strong>.</li>
+            </ul>
+
+            <h3>When to Use This Calculator</h3>
+            <p>Utilize the markup calculator when processing new inventory arrivals, setting supplier price lists,
+                building franchise financial models, or doing competitive pricing research. If you know industry
+                standard markups, you can reverse-engineer competitors' baseline costs easily.</p>
+
+            <h3>Common Errors to Avoid</h3>
+            <p>Mistaking markup for margin is a deadly pricing error. If you desire a 50% profit margin on a $50
+                product, adding a 50% markup will only get you to a $75 selling price (which is a 33% margin). To
+                achieve a 50% margin, you need a 100% markup to reach $100. Always use the right formula.</p>
+
+            <!-- Ad Slot Bottom -->
+            <div class="ad-placeholder">Ad Slot Bottom</div>
+
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>What is markup?</h3>
+                <p>Markup is the exact amount added to the root cost price of goods to establish a final retail price.
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3>What is a 50% markup?</h3>
+                <p>It means adding half the value of the original base cost to itself to generate the final sticker
+                    price.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is markup higher than margin?</h3>
+                <p>Yes. Because the denominator (cost) in markup calculation is always smaller than the denominator
+                    (revenue) in margin calculation, the markup format will always be a higher percentage.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is keystone pricing?</h3>
+                <p>Keystone pricing is a historic retail standard signifying a straight 100% markup (doubling the
+                    wholesale acquisition cost).</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can markup exceed 100%?</h3>
+                <p>Yes, absolutely. Industries like fine jewelry, cosmetics, and restaurants routinely utilize markups
+                    exceeding 300% to offset large physical footprints and marketing costs.</p>
+            </div>
+
+            <h3>Conclusion</h3>
+            <p>Properly leveraging markups dictates the trajectory of brand growth. Never attempt to guess pricing
+                variables blindly. Utilize our robust calculator to engineer the ideal pricing system for your
+                marketplace.</p>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
+        <p>&copy; 2026 Smart Percentage Calculator. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

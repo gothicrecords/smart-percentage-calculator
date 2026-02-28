@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Decrease Calculator | Fast Reduction Math</title>
+    <meta name="description"
+        content="Calculate percentage decrease efficiently. See the exact drop between an old and new number. Includes formulas, examples, and comprehensive FAQ.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://example.com/percentage-decrease-calculator.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How is percentage decrease calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Subtract the new value from the old value, divide by the old value, and multiply by 100." } },
+        { "@type": "Question", "name": "Can a percentage decrease be over 100%?", "acceptedAnswer": { "@type": "Answer", "text": "Normally no, you cannot lose more than 100% of a physical quantity, as 100% represents the entire original amount." } },
+        { "@type": "Question", "name": "Is percentage decrease the same as a discount?", "acceptedAnswer": { "@type": "Answer", "text": "Mathematically, yes. A retail discount is practically a real-world application of a percentage decrease." } },
+        { "@type": "Question", "name": "Why divide by the old value?", "acceptedAnswer": { "@type": "Answer", "text": "Because the drop is strictly proportional to the starting point, not the ending point." } },
+        { "@type": "Question", "name": "What if the result is negative?", "acceptedAnswer": { "@type": "Answer", "text": "If you get a negative result using a decrease formula, it actually means the value increased." } }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Smart Percentage</a>
+        <nav class="nav-links">
+            <a href="percentage-increase-calculator.html">Increase</a>
+            <a href="percentage-decrease-calculator.html">Decrease</a>
+            <a href="profit-margin-calculator.html">Profit Margin</a>
+            <a href="markup-calculator.html">Markup</a>
+            <a href="discount-calculator.html">Discount</a>
+            <a href="compound-growth-calculator.html">Compound</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>Percentage Decrease Calculator</h1>
+            <p class="subtitle">Quickly find the precise degree of decline or reduction.</p>
+        </div>
+
+        <!-- Ad Slot Top -->
+        <div class="ad-placeholder">Ad Slot Top</div>
+
+        <div class="calculator-card">
+            <form id="calc-decrease">
+                <div class="form-group">
+                    <label for="old-value">Old Value</label>
+                    <input type="number" id="old-value" placeholder="e.g. 200" step="any" required>
+                    <div class="error-msg">Please enter a valid number</div>
+                </div>
+                <div class="form-group">
+                    <label for="new-value">New Value</label>
+                    <input type="number" id="new-value" placeholder="e.g. 150" step="any" required>
+                    <div class="error-msg">Please enter a valid number</div>
+                </div>
+                <div class="btn-group">
+                    <button type="submit" class="btn-primary">Calculate Decrease</button>
+                    <button type="reset" class="btn-secondary">Reset</button>
+                </div>
+            </form>
+            <div id="result-box" class="result-box">
+                <p>Percentage Decrease:</p>
+                <div id="result-value" class="result-value">0%</div>
+                <button id="btn-copy" class="btn-copy">Copy Result</button>
+            </div>
+        </div>
+
+        <!-- Ad Slot Middle -->
+        <div class="ad-placeholder">Ad Slot Middle</div>
+
+        <article class="content-section">
+            <h2>Understanding Percentage Decrease</h2>
+            <p>Percentage decrease identifies how much a quantity has dropped over a specific duration or event. In
+                business, science, and everyday shopping, identifying numerical drops relative to standard bases is
+                pivotal. Knowing that something dropped by exactly 15% offers actionable context compared to knowing it
+                merely dropped by 30 units.</p>
+
+            <h3>The Mathematical Formula</h3>
+            <p>The logic mirrors the increase equation, but the numerator strictly handles reductions to present a
+                positive percentage representing the drop. The formula is:</p>
+            <p><strong>Percentage Decrease = ((Old Value - New Value) / Old Value) × 100</strong></p>
+            <p>Deduct the new, smaller number from your old, larger number. Take that difference, divide it by the
+                initial bigger number (Old Value), and multiply by 100.</p>
+
+            <h3>3 Practical Examples</h3>
+            <ul>
+                <li><strong>Example 1 (Website Traffic):</strong> Your blog had 500 visitors yesterday (Old) and 400
+                    today (New). The drop is 100. 100 divided by 500 is 0.20, which gives a <strong>20%
+                        decrease</strong> in traffic.</li>
+                <li><strong>Example 2 (Weight Loss):</strong> You weighed 200 pounds and dropped to 180 pounds. The raw
+                    difference is 20 pounds. 20 / 200 = 0.10. Congratulations, that's a <strong>10% decrease</strong>.
+                </li>
+                <li><strong>Example 3 (Expense Reduction):</strong> A company cuts monthly expenses from $10,000 down to
+                    $8,500. Difference: $1,500. $1,500 divided by $10,000 equals 0.15, meaning overhead had a
+                    <strong>15% decrease</strong>.</li>
+            </ul>
+
+            <h3>When to Use This Calculator</h3>
+            <p>You should calculate a percentage decrease when analyzing operational cost cuts, tracking downward trends
+                in analytics, measuring physical reductions, or evaluating depreciation. Financial analysts frequently
+                use this metric to track asset value decay over time. Keeping a close eye on these decreases protects
+                organizational health.</p>
+
+            <h3>Common Errors to Avoid</h3>
+            <p>A prevalent mistake is dividing the difference by the New Value. If expenses dropped from $100 to $80,
+                the drop is $20. Dividing 20 by 80 implies a 25% drop, but dividing by the correct Old Value (100) gives
+                the accurate 20% drop. Our calculator always applies the correct denominator.</p>
+
+            <!-- Ad Slot Bottom -->
+            <div class="ad-placeholder">Ad Slot Bottom</div>
+
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>How is percentage decrease calculated?</h3>
+                <p>Check the formula: subtract the new value from the old value, divide that by the old value, then
+                    multiply by 100.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can a percentage decrease be over 100%?</h3>
+                <p>Typically, no. You cannot remove more than 100% of a physical item because 100% represents the entire
+                    original entity. Losing 100% means it reaches zero.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is percentage decrease the same as a discount?</h3>
+                <p>Mathematically, yes. A 20% store discount is exactly a 20% decrease applied to a retail price point.
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3>Why divide by the old value?</h3>
+                <p>Because the fundamental reduction is inherently relative only to the starting condition, ensuring
+                    consistency in analytical frameworks.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What if the result is negative?</h3>
+                <p>If you get a negative value, it signifies that the new value is actually larger—meaning you
+                    experienced an increase rather than a decrease.</p>
+            </div>
+
+            <h3>Conclusion</h3>
+            <p>Do not leave your tracking and analytics to mental math. Our tool ensures your percentage decrease
+                calculations are perfect every single time. Validate your cost reductions, weight metrics, and
+                deprecation figures here effortlessly.</p>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
+        <p>&copy; 2026 Smart Percentage Calculator. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

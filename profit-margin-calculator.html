@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit Margin Calculator | Find Business Profitability</title>
+    <meta name="description"
+        content="Calculate your gross and net profit margin effortlessly. Free tool for modern businesses to calculate revenue profitability. Easy to use formula explained.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://example.com/profit-margin-calculator.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is profit margin?", "acceptedAnswer": { "@type": "Answer", "text": "It is a ratio of profitability that measures how much of every dollar earned is kept as profit." } },
+        { "@type": "Question", "name": "How is margin different from markup?", "acceptedAnswer": { "@type": "Answer", "text": "Margin is profit based on revenue, while markup is profit based on the cost of goods sold." } },
+        { "@type": "Question", "name": "What is a good profit margin?", "acceptedAnswer": { "@type": "Answer", "text": "A standard 10% is average, 20% is considered high, and 5% is low, though this heavily varies by industry." } },
+        { "@type": "Question", "name": "Can margin be negative?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if your costs exceed your revenue, your margin is heavily negative, indicating a loss." } },
+        { "@type": "Question", "name": "Why are my margins shrinking?", "acceptedAnswer": { "@type": "Answer", "text": "Rising costs of materials, increased operational overhead, or lowering prices without offsetting expenses will shrink margins." } }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Smart Percentage</a>
+        <nav class="nav-links">
+            <a href="percentage-increase-calculator.html">Increase</a>
+            <a href="percentage-decrease-calculator.html">Decrease</a>
+            <a href="profit-margin-calculator.html">Profit Margin</a>
+            <a href="markup-calculator.html">Markup</a>
+            <a href="discount-calculator.html">Discount</a>
+            <a href="compound-growth-calculator.html">Compound</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>Profit Margin Calculator</h1>
+            <p class="subtitle">Accurately determine the profitability ratio of your product or business.</p>
+        </div>
+
+        <!-- Ad Slot Top -->
+        <div class="ad-placeholder">Ad Slot Top</div>
+
+        <div class="calculator-card">
+            <form id="calc-margin">
+                <div class="form-group">
+                    <label for="cost">Total Cost</label>
+                    <input type="number" id="cost" placeholder="e.g. 50" step="any" required>
+                    <div class="error-msg">Please enter a valid cost</div>
+                </div>
+                <div class="form-group">
+                    <label for="revenue">Total Revenue (Selling Price)</label>
+                    <input type="number" id="revenue" placeholder="e.g. 100" step="any" required>
+                    <div class="error-msg">Please enter a valid revenue</div>
+                </div>
+                <div class="btn-group">
+                    <button type="submit" class="btn-primary">Calculate Margin</button>
+                    <button type="reset" class="btn-secondary">Reset</button>
+                </div>
+            </form>
+            <div id="result-box" class="result-box">
+                <p>Profit Margin:</p>
+                <div id="result-value" class="result-value">0%</div>
+                <button id="btn-copy" class="btn-copy">Copy Result</button>
+            </div>
+        </div>
+
+        <!-- Ad Slot Middle -->
+        <div class="ad-placeholder">Ad Slot Middle</div>
+
+        <article class="content-section">
+            <h2>Understanding Profit Margin</h2>
+            <p>The profit margin is arguably the most vital metric inside any commercial enterprise. It represents the
+                percentage of revenue that actually turns into profit after accounting for costs. Whether you are
+                running an e-commerce shop, a software startup, or a retail outlet, knowing your margin dictactes your
+                pricing power, sustainability, and competitive strength.</p>
+
+            <h3>The Mathematical Formula</h3>
+            <p>The calculation compares absolute profit to total revenue. The fundamental formula is:</p>
+            <p><strong>Profit Margin = ((Revenue - Cost) / Revenue) × 100</strong></p>
+            <p>First, calculate your gross profit by subtracting costs from revenue. Second, divide that pure profit by
+                the total revenue. Lastly, multiply by 100 to get a clean percentage showing how much of every sales
+                dollar you keep.</p>
+
+            <h3>3 Practical Examples</h3>
+            <ul>
+                <li><strong>Example 1 (E-commerce Product):</strong> You sell a t-shirt for $20 (Revenue). It costs $15
+                    to manufacture and ship (Cost). Profit is $5. Divide 5 by 20 to get 0.25, amounting to a <strong>25%
+                        margin</strong>.</li>
+                <li><strong>Example 2 (Service Business):</strong> A consulting firm charges $10,000 for a project. The
+                    labor costs $6,000. Profit is $4,000. 4,000 / 10,000 = 0.40, a highly healthy <strong>40%
+                        margin</strong>.</li>
+                <li><strong>Example 3 (High Volume Retail):</strong> A grocery store sells an apple for $1.00. It costs
+                    $0.95 wholesale. Profit is $0.05. 0.05 / 1.00 equals a notoriously tight <strong>5% margin</strong>.
+                </li>
+            </ul>
+
+            <h3>When to Use This Calculator</h3>
+            <p>Use this tool when evaluating new product lines, checking quarter-end business health, or adjusting your
+                pricing strategy. Investors specifically look at profit margin to decide if a company is efficiently
+                run. Maintaining consistent margins despite inflation ensures long-term survival.</p>
+
+            <h3>Common Errors to Avoid</h3>
+            <p>The catastrophic mistake business owners make is confusing Margin with Markup. If a product costs $50 and
+                you sell it for $100, your markup is 100%, but your profit margin is only 50%. Failing to distinguish
+                these two metrics leads to massive pricing failures and cash flow shortages.</p>
+
+            <!-- Ad Slot Bottom -->
+            <div class="ad-placeholder">Ad Slot Bottom</div>
+
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>What is profit margin?</h3>
+                <p>It is a profitability ratio measuring the amount of money a business keeps as pure profit from its
+                    total sales.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How is margin different from markup?</h3>
+                <p>Margin is derived from revenue, telling you how much of the sale was profit. Markup is derived from
+                    cost, telling you how much you added to the base price.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is a good profit margin?</h3>
+                <p>Generally, a 10% net profit margin is considered average, 20% is high, and 5% is low. Software
+                    companies often have margins exceeding 70%.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can margin be negative?</h3>
+                <p>Absolutely. If a product costs you $20 but you clearance it at $10, you have a negative profit margin
+                    and are actively losing money.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Why are my margins shrinking?</h3>
+                <p>Margins shrink when vendor costs rise, operational overhead inflates, or competition forces you to
+                    lower your selling price.</p>
+            </div>
+
+            <h3>Conclusion</h3>
+            <p>Accurate margin tracking acts as the pulse of your business. Use this Profit Margin Calculator routinely
+                to ensure pricing covers your operating reality and generates the returns your hard work deserves.</p>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
+        <p>&copy; 2026 Smart Percentage Calculator. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
